@@ -1,0 +1,24 @@
+{
+    "name": "yhshanto/laralang",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yousuf Hossain",
+            "email": "yousuf.hossain.shanto@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "YHShanto\\LaraLang\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YHShanto\\LaraLang\\LangServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
